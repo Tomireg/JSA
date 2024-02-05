@@ -44,7 +44,8 @@
 .form {
     justify-self: center;
     text-align: right;
-    border: 10px darkgrey solid;
+    border: 2px darkgrey solid;
+    padding: 10;
 }
 
 
