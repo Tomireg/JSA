@@ -7,8 +7,7 @@
     grid-template-areas:
         "img1 a1 a1 a1"
         "a2 a2 a2 img2"
-        "img3 a3 a3 a3"
-        ". video video .";
+        "img3 a3 a3 a3";
 
 }
 
@@ -37,9 +36,6 @@
     grid-area: a3;
 }
 
-.video {
-    grid-area: video;
-}
 
 .a1 {
     text-align: justify;
@@ -90,11 +86,4 @@
     height: auto;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
 }
