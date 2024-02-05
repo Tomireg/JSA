@@ -44,9 +44,8 @@
 .form {
     justify-self: center;
     text-align: right;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 500px;
+    height: 500px;
     box-sizing: border-box;
 }
 
