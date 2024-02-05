@@ -43,7 +43,7 @@
 
 .form {
     justify-self: center;
-    text-align: right;
+    text-align: left;
 }
 
 input[type=text] {
@@ -59,7 +59,6 @@ input[type=password] {
 }
 
 label {
-    justify-self: left;
     display: inline-block;
 }
 
