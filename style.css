@@ -44,6 +44,7 @@
 .form {
     justify-self: center;
     text-align: right;
+    border: 10px darkgrey solid;
 }
 
 
@@ -143,4 +144,53 @@ h2 {
     height: auto;
     margin: 0 auto;
     justify-self: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li:hover,
+nav li:focus {
+    background-color: silver;
+}
+
+
+
+a:link {
+    color: goldenrod
+}
+
+a:hover {
+    color: chocolate;
+}
+
+a:visited {
+    color: steelblue;
+}
+
+.nav-item {
+    background-color: brown;
+    border: 1px solid black;
+    padding: .5em 1em;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.nav-container {
+    background-color: steelblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
 }
