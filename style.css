@@ -2,7 +2,7 @@
     align-items: center;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 2fr 0.5fr 0.5fr 2fr;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "img1 a1 a1 a1"
@@ -109,7 +109,7 @@ h2 {
     border: 1px solid black;
     display: flex;
     justify-content: center;
-    background-color: darkgrey;
+    background-color: slategrey;
     color: black;
     font-size: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -164,7 +164,7 @@ a:link {
 }
 
 a:visited {
-    color: darkgrey;
+    color: slategrey;
 }
 
 .nav-item {
@@ -178,7 +178,7 @@ a:visited {
 }
 
 .nav-container {
-    background-color: darkgrey;
+    background-color: slategrey;
     border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
