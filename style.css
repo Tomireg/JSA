@@ -44,11 +44,15 @@
 .form {
     justify-self: center;
     text-align: right;
-    width: 500px;
-    height: 500px;
-    box-sizing: border-box;
 }
 
+input[type=text] {
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+}
 
 .a1 {
     text-align: justify;
