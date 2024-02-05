@@ -161,6 +161,14 @@ nav li {
     display: inline-block;
 }
 
+a:link {
+    color: black
+}
+
+a:visited {
+    color: darkgrey;
+}
+
 .nav-item {
     background-color: white;
     color: black;
