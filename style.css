@@ -127,12 +127,3 @@ h2 {
     background-size: cover;
     color: black;
 }
-
-.logo {
-    display: block;
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    justify-self: center;
-}
