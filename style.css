@@ -43,6 +43,7 @@
 
 .form {
     width: 100%;
+    height: auto;
     justify-self: center;
     text-align: left;
 }
@@ -67,6 +68,7 @@ input[type=submit] {
 
 label {
     display: inline-block;
+    color: slategrey;
 }
 
 .a1 {
