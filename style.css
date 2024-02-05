@@ -7,7 +7,8 @@
     grid-template-areas:
         "img1 a1 a1 a1"
         "a2 a2 a2 img2"
-        "img3 a3 a3 a3";
+        "img3 a3 a3 a3"
+        ". form form .";
 
 }
 
@@ -34,6 +35,15 @@
 
 .a3 {
     grid-area: a3;
+}
+
+.form {
+    grid-area: form;
+}
+
+.form {
+    justify-self: center;
+    text-align: right;
 }
 
 
