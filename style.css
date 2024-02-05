@@ -50,7 +50,16 @@ input[type=text] {
     width: 100%;
 }
 
+input[type=email] {
+    width: 100%;
+}
+
+input[type=password] {
+    width: 100%;
+}
+
 label {
+    justify-self: left;
     display: inline-block;
 }
 
