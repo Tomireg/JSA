@@ -185,3 +185,45 @@ a:visited {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media (max-width: 800px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .logo1 img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .logo2 img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .article1 {
+        font-size: 0.5rem;
+    }
+
+    .article2 {
+        font-size: 0.5rem;
+    }
+
+    .video-container {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
