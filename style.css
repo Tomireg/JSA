@@ -1,0 +1,95 @@
+.grid-container {
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "img1 article1 article1 article1"
+        "article2 article2 article2 img2"
+        "img3 article3 article3 article3";
+
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.a1 {
+    grid-area: article1;
+}
+
+.img2 {
+    grid-area: img2;
+    justify-self: right;
+}
+
+.a2 {
+    grid-area: article2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.a3 {
+    grid-area: article3;
+}
+
+.a1 {
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a2 {
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a3 {
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.img3 {
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
