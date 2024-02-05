@@ -42,9 +42,10 @@
 }
 
 .form {
+    background-color: darkgrey;
     justify-self: center;
     text-align: right;
-    border: 2px darkgrey solid;
+    border: 2px black;
     padding: 10;
 }
 
