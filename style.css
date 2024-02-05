@@ -44,6 +44,7 @@
 .form {
     justify-self: center;
     text-align: right;
+    box-sizing: border-box;
 }
 
 
