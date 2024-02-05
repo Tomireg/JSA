@@ -42,11 +42,8 @@
 }
 
 .form {
-    background-color: darkgrey;
     justify-self: center;
     text-align: right;
-    border: 2px black;
-    padding: 10;
 }
 
 
@@ -103,7 +100,7 @@
 
 h2 {
     text-align: center;
-    color: black;
+    color: slategrey;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
