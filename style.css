@@ -106,10 +106,10 @@ h2 {
 
 .footer-container {
     padding: 10;
-    border: 1px solid darkgrey;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: darkgrey;
     color: black;
     font-size: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -127,11 +127,3 @@ h2 {
     color: black;
 }
 
-.logo {
-    display: block;
-    box-sizing: border-box;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    justify-self: center;
-}
