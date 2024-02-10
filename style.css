@@ -68,7 +68,7 @@ input[type=submit] {
 
 label {
     display: inline-block;
-    color: black;
+    color: slategrey;
 }
 
 .a1 {
@@ -250,7 +250,7 @@ a:visited {
     color: black;
 }
 
-.dark-mode label {
+.dark-mode {
     background-color: black;
     color: white;
 }
