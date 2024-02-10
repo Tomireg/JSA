@@ -71,6 +71,14 @@ label {
     color: slategrey;
 }
 
+.mybtn {
+    border: none;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
 .a1 {
     text-align: justify;
     width: 90%;
