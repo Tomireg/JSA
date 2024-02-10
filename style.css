@@ -250,7 +250,7 @@ a:visited {
     color: black;
 }
 
-.dark-mode {
+.dark-mode label {
     background-color: black;
     color: white;
 }
