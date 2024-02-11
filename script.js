@@ -32,7 +32,7 @@ function styleBody() {
 }
 
 function styleNav() {
-    let navElement = document.nav-item;
+    let navElement = document.getElementById("nav-item");
     navElement.classList.toggle("nav-dark")
 }
 
