@@ -22,21 +22,8 @@ function clickedDarkMode() {
 }
 
 function setDarkMode() {
-    styleBody();
-    styleNav();
-}
-
-function styleBody() {
     let element = document.body;
     element.classList.toggle("dark-mode");
-}
-
-function styleNav() {
-    let allButtons = document.getElementsByClassName("nav-item");
-    for (let i = 0; i < allButtons.length; i++) {
-        let button = allButtons[i];
-    }
-    button.classList.toggle("nav-dark");
 }
 
 function toggleDarkMode() {

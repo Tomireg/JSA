@@ -209,15 +209,6 @@ a:visited {
 
 }
 
-.nav-dark {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    padding: .5em 1em;
-    font-size: 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .nav-container {
     background-color: slategrey;
     border: 1px solid black;
