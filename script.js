@@ -16,21 +16,30 @@ function init() {
     myButton.addEventListener("click", clickedDarkMode);
 }
 
-function clickedDarkMode(){
+function clickedDarkMode() {
     toggleDarkMode();
     setDarkMode();
 }
 
 function setDarkMode() {
+    styleBody();
+}
+
+function styleBody() {
     let element = document.body;
     element.classList.toggle("dark-mode");
 }
 
-function toggleDarkMode(){
-    if( localStorage.getItem("dark-mode")==="true" ){
-        localStorage.setItem("dark-mode", false );
-        
-    }else{
+function styleNav() {
+    let navElement = document.nav-item;
+    navElement.classList.toggle("nav-dark")
+}
+
+function toggleDarkMode() {
+    if (localStorage.getItem("dark-mode") === "true") {
+        localStorage.setItem("dark-mode", false);
+
+    } else {
         localStorage.setItem("dark-mode", true);
     }
 }
