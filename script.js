@@ -14,6 +14,31 @@ function init() {
 
     let myButton = document.getElementById("mybtn");
     myButton.addEventListener("click", clickedDarkMode);
+
+    const form = document.getElementById('form');
+    const resultDiv = document.getElementById('result');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      resultDiv.innerHTML = '';
+
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      if (!name && !email && !password) {
+        resultDiv.innerHTML = '<p class="error">All fields are required.</p>';
+      } else if (!name) {
+        resultDiv.innerHTML = '<p class="error">Need a Name!</p>';   
+      } else if (!email) {
+        resultDiv.innerHTML = '<p class="error">Need an Email!</p>';
+      } else if (!password) {
+        resultDiv.innerHTML = '<p class="error">Need a Password!</p>';
+      } else {
+        resultDiv.innerHTML = '<p>Form submitted successfully!</p>';
+      }
+    });
 }
 
 function clickedDarkMode() {
