@@ -23,6 +23,7 @@ function clickedDarkMode() {
 
 function setDarkMode() {
     styleBody();
+    styleNav();
 }
 
 function styleBody() {
