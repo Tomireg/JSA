@@ -75,8 +75,16 @@ label {
     border: none;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: steelblue;
+    background-color: white;
     color: black;
+}
+
+.dmbtn {
+    border: none;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
 }
 
 .a1 {
@@ -156,7 +164,8 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: black;
+    color: steelblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .logo1 {
@@ -195,18 +204,34 @@ a:link {
     color: black
 }
 
+.darklink {
+    color: white;
+}
+
 a:visited {
     color: black;
 }
 
+.darkvisited {
+    color: white;
+}
+
 .nav-item {
-    background-color: steelblue;
+    background-color: white;
     color: black;
     border: 1px solid black;
     padding: .5em 1em;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+.nav-item-dark {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: .5em 1em;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-container {
@@ -285,17 +310,17 @@ a:visited {
     margin: 0 auto;
 }
 
-.power-container { 
-    background-color: #2E424D; 
-    width: 100%; 
-    height: 15px; 
-    border-radius: 5px; 
-} 
-  
-.power-container #power-point { 
-    background-color: #D73F40; 
-    width: 1%; 
-    height: 100%; 
-    border-radius: 5px; 
-    transition: 0.5s; 
+.power-container {
+    background-color: #2E424D;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.power-container #power-point {
+    background-color: #D73F40;
+    width: 1%;
+    height: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
 }
