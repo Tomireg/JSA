@@ -38,9 +38,9 @@ function init() {
     } else if (!/[A-Z]/.test(password)) {
       resultDiv.innerHTML = '<p class="error">Password needs minimum 1 uppercase character!</p>';
     } else if (!/[a-z]/.test(password)) {
-      resultDiv.innerHTML = '<p class="error">Password needs minimum 1 lowercase character!</p>'; 
+      resultDiv.innerHTML = '<p class="error">Password needs minimum 1 lowercase character!</p>';
     } else if (!/[\d]/.test(password)) {
-      resultDiv.innerHTML = '<p class="error">Password needs minimum 1 numeric digit!</p>'; 
+      resultDiv.innerHTML = '<p class="error">Password needs minimum 1 numeric digit!</p>';
     } else if (password.length >= 1 & password.length < 6) {
       resultDiv.innerHTML = '<p class="error">Password needs to be minimum 6 characters!</p>';
     } else {
@@ -50,15 +50,38 @@ function init() {
 
   let checkBox = document.getElementById("checkbox");
   checkBox.addEventListener("click", showPasswordBox);
+
+  let pass = document.getElementById("password");
+  let power = document.getElementById("power-point");
+  pass.oninput = function () {
+    let point = 0;
+    let value = pass.value;
+    let widthPower =
+      ["1%", "25%", "50%", "75%", "100%"];
+    let colorPower =
+      ["#D73F40", "#DC6551", "#F2B84F", "#BDE952", "#3ba62f"];
+
+    if (value.length >= 6) {
+      let arrayTest =
+        [/[0-9]/, /[a-z]/, /[A-Z]/];
+      arrayTest.forEach((item) => {
+        if (item.test(value)) {
+          point += 1;
+        }
+      });
+    }
+    power.style.width = widthPower[point];
+    power.style.backgroundColor = colorPower[point];
+  };
 }
 
 function showPasswordBox(e) {
-let passwordBox = document.getElementById("password");
-if (e.target.checked) {
-  passwordBox.type = "text";
-} else {
-  passwordBox.type = "password";
-}
+  let passwordBox = document.getElementById("password");
+  if (e.target.checked) {
+    passwordBox.type = "text";
+  } else {
+    passwordBox.type = "password";
+  }
 }
 
 function clickedDarkMode() {

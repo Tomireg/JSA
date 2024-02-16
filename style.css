@@ -284,3 +284,18 @@ a:visited {
     border: 5px solid steelblue;
     margin: 0 auto;
 }
+
+.power-container { 
+    background-color: #2E424D; 
+    width: 100%; 
+    height: 15px; 
+    border-radius: 5px; 
+} 
+  
+.power-container #power-point { 
+    background-color: #D73F40; 
+    width: 1%; 
+    height: 100%; 
+    border-radius: 5px; 
+    transition: 0.5s; 
+}
