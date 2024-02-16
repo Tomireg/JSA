@@ -12,6 +12,21 @@
 
 }
 
+.image-container {
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ". image .";
+}
+
+.image {
+    grid-area: image;
+}
+
+
 .img1 {
     grid-area: img1;
 }
@@ -282,14 +297,14 @@ a:visited {
 
 #image {
     line-height: 750px;
-    width: 1250px;
+    width: 100%;
     height: 750px;
     border: 5px solid steelblue;
     margin: 25px auto;
     background-color: slategrey;
     background-image: url('');
     background-repeat: no-repeat;
-    background-size: 1250px 750px;
+    background-size: 100% 750px;
     color: crimson;
     text-align: center;
     margin-bottom: 25px;
@@ -314,4 +329,8 @@ a:visited {
     height: 100%;
     border-radius: 5px;
     transition: 0.5s;
+}
+
+.error {
+    color: red;
 }
