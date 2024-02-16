@@ -93,6 +93,7 @@ function setDarkMode() {
   styleBody();
   styleNav();
   styleBtn();
+  styleLink();
 }
 
 function styleBody() {
@@ -112,7 +113,6 @@ function styleNav() {
 function styleLink(){
   let link = document.getElementsByClassName("link");
   link.classList.toggle("darklink");
-  link.classList.toggle("darkvisited");
 }
 
 function styleBtn() {
