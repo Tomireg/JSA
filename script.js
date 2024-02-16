@@ -105,7 +105,7 @@ function styleNav() {
   for (let i = 0; i < allButtons.length; i++) {
     let button = allButtons[i];
 
-    button.classList.toggle("nav-item-dark", "darklink", "darkvisited");
+    button.classList.toggle("nav-item-dark");
   }
 }
 
