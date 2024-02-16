@@ -200,22 +200,6 @@ nav li {
     display: inline-block;
 }
 
-a:link {
-    color: black
-}
-
-.darklink {
-    color: white;
-}
-
-a:visited {
-    color: black;
-}
-
-.darkvisited {
-    color: white;
-}
-
 .nav-item {
     background-color: white;
     color: black;
