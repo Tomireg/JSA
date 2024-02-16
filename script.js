@@ -109,6 +109,12 @@ function styleNav() {
   }
 }
 
+function styleLink(){
+  let link = document.getElementsByClassName("link");
+  link.classList.toggle("darklink");
+  link.classList.toggle("darkvisited");
+}
+
 function styleBtn() {
   let dmBtn = document.getElementById("mybtn");
   dmBtn.classList.toggle("dmbtn");
