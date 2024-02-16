@@ -282,17 +282,16 @@ a:visited {
 
 #image {
     line-height: 750px;
-    width: 1000px;
+    width: 1250px;
     height: 750px;
     border: 5px solid steelblue;
-    margin: 0 auto;
+    margin: 25px auto;
     background-color: slategrey;
     background-image: url('');
     background-repeat: no-repeat;
-    background-size: 1000px 750px;
+    background-size: 1250px 750px;
     color: crimson;
     text-align: center;
-    background-size: 100%;
     margin-bottom: 25px;
     font-size: 150%;
 }
