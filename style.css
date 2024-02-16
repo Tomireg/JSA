@@ -200,12 +200,12 @@ nav li {
     display: inline-block;
 }
 
-.link {
-    color: black;
+a:link {
+    color: steelblue;
 }
 
-.darklink {
-    color: white;
+a:visited {
+    color: steelblue;
 }
 
 .nav-item {

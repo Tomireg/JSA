@@ -93,7 +93,6 @@ function setDarkMode() {
   styleBody();
   styleNav();
   styleBtn();
-  styleLink();
 }
 
 function styleBody() {
@@ -108,11 +107,6 @@ function styleNav() {
 
     button.classList.toggle("nav-item-dark");
   }
-}
-
-function styleLink(){
-  let link = document.getElementsByClassName("link");
-  link.classList.toggle("darklink");
 }
 
 function styleBtn() {
